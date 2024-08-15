@@ -1,0 +1,4 @@
+EADDRINUSE: address already in use :::8000
+
+netstat -ano | findstr :8000
+taskkill /PID <PID> /F

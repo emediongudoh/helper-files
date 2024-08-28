@@ -1,0 +1,8 @@
+- Windows
+Open Command Prompt and run the command `ipconfig /flushdns`
+
+- Mac
+Open Terminal and run the command `sudo dscacheutil -flushcache`; `sudo killall -HUP mDNSResponder`
+
+- Linux
+The command varies based on the distribution, but `sudo systemd-resolve --flush-caches` might work.

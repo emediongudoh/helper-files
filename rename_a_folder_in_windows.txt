@@ -1,0 +1,2 @@
+cd `C:\Users\YourUsername\Documents`
+ren "Old Folder Name" "New Folder Name"

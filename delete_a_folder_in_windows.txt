@@ -1,0 +1,4 @@
+rmdir /s /q foldername
+
+/s - deletes all files and subdirectories in the specified directory
+/q - quiet mode; does not prompt for confirmation
